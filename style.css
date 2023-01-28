@@ -1,14 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* icons */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+/* icons */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* icons */
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+body {
+  font-family: "Poppins", sans-serif;
 }
-/* icons */
 
 header {
   display: flex;
@@ -185,7 +191,7 @@ small {
 .about-us h1::after {
   content: "";
   position: absolute;
-  bottom: -5px;
+  bottom: 5px;
   left: 6px;
   display: block;
   width: 100%;
