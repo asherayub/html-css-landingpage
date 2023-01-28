@@ -166,6 +166,10 @@ small {
   font-size: clamp(1.2rem, 2vw, 2rem);
   cursor: pointer;
   margin-inline: 0.3em;
+  transition: color 300ms ease-in;
+}
+.fa-brands:hover {
+    color: #ffe600;
 }
 /* about page */
 .about-us {
